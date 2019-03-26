@@ -1,0 +1,83 @@
+<?xml version = "1.0" encoding = "UTF-8" standalone = "no"?>
+<company>
+    <department name="Development" depId="1">
+        <employee empId="001">
+            <lastName>Ivan</lastName>
+            <firstName>Ivanov</firstName>
+            <birthDate>01.01.1909</birthDate>
+            <position>Department Manager</position>
+            <skills>
+                <skill>Communication</skill>
+                <skill>Java</skill>
+            </skills>
+            <managerId>0</managerId>
+        </employee>
+        <employee empId="002">
+            <lastName>Kate</lastName>
+            <firstName>Kotovsky</firstName>
+            <birthDate>01.12.1980</birthDate>
+            <position>Developer</position>
+            <skills>
+                <skill>Can work only from 8 to 14</skill>
+                <skill>Eats only fish</skill>
+                <skill>Sleeps 16 hours a day</skill>
+            </skills>
+            <managerId>001</managerId>
+        </employee>
+        <employee empId="003">
+            <lastName>John</lastName>
+            <firstName>Doe</firstName>
+            <birthDate>01.01.1999</birthDate>
+            <position>Developer</position>
+            <skills>
+                <skill>Sleeps only 2 hours per day</skill>
+                <skill>Overtimes without concerns</skill>
+                <skill>Works for food</skill>
+            </skills>
+            <managerId>001</managerId>
+        </employee>
+    </department>
+    <department name="Accounting" depId="2">
+        <employee empId="004">
+            <lastName>Ivan</lastName>
+            <firstName>Marbody</firstName>
+            <birthDate>04.04.1984</birthDate>
+            <position>Accounnting Manager</position>
+            <skills>
+                <skill>Computing</skill>
+                <skill>Word</skill>
+                <skill>Excel</skill>
+            </skills>
+            <managerId>001</managerId>
+        </employee>
+        <employee empId="005">
+            <lastName>Serghei</lastName>
+            <firstName>Brin</firstName>
+            <birthDate>20.12.2020</birthDate>
+            <position>Accountant</position>
+            <skills>
+                <skill>Sleeps only 2 hours per day</skill>
+                <skill>Overtimes without concerns</skill>
+                <skill>Works for food</skill>
+            </skills>
+            <managerId>004</managerId>
+        </employee>
+    </department>
+    <department name="Research" depId="3">
+        ...
+    </department>
+    <department name="TI" depId="4">
+        <employee empId="006">
+            <lastName>Leonid</lastName>
+            <firstName>Maskovich</firstName>
+            <birthDate>19.10.1560</birthDate>
+            <position>the only IT guy in team</position>
+            <skills>
+                <skill>Lives forever</skill>
+                <skill>Solves any kind of problem</skill>
+                <skill>Eats only doritos</skill>
+            </skills>
+            <managerId>0</managerId>
+        </employee>
+    </department>
+</company>
