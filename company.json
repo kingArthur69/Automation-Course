@@ -1,0 +1,74 @@
+{"department":[
+  {
+  "name":"Development",
+  "depId":"001",
+  "employees":[
+    {
+      "empId":"1",
+      "firstName":"Ivan",
+      "lastName":"Ivanov",
+      "birthDate":"1 Jan 1990",
+      "position":"Department Manager",
+      "skills":["Communication","Java"],
+      "managerId":"0"
+    },
+    {
+      "empId":"2",
+      "firstName":"Peter",
+      "lastName":"Sidorov",
+      "birthDate":"2 Jun 1988",
+      "position":"Sales Manager",
+      "skills":["Strength","Psyhology"],
+      "managerId":"0"
+    }
+  ]
+},
+  {
+    "name":"IT",
+    "depId":"002",
+    "employees":[
+      {
+        "empId":"3",
+        "firstName":"John",
+        "lastName":"Koval",
+        "birthDate":"4 Feb 1980",
+        "position":"IT Manager",
+        "skills":["Communication","Java"],
+        "managerId":"1"
+      },
+      {
+        "empId":"4",
+        "firstName":"Anna",
+        "lastName":"Fyodorov",
+        "birthDate":"12 Mar 1978",
+        "position":"IT Consultant",
+        "skills":["C++","PHP"],
+        "managerId":"2"
+      }
+    ]
+  },
+  {
+    "name":"HR",
+    "depId":"003",
+    "employees":[
+      {
+        "empId":"5",
+        "firstName":"Kate",
+        "lastName":"Petrova",
+        "birthDate":"27 Sep 1980",
+        "position":"HR Manager",
+        "skills":["Communication","Speech"],
+        "managerId":"1"
+      },
+      {
+        "empId":"6",
+        "firstName":"Bob",
+        "lastName":"Merphy",
+        "birthDate":"27 Aug 1969",
+        "position":"HR Agent",
+        "skills":["1C","Word"],
+        "managerId":"5"
+      }
+    ]
+  }
+]}
