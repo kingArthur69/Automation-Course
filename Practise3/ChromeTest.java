@@ -46,7 +46,7 @@ public class ChromeTest {
         row.createCell(1).setCellValue("Site name");
         row.createCell(2).setCellValue("Number of times GTA met");
 
-        for(int j = 0; j < 1; j++){
+        for(int j = 0; j < 2; j++){
             List<WebElement> links = driver.findElements(By.xpath("//div[@class='r']//a[contains(.,'gta') or contains(.,'heft') or contains(.,'гта')]"));
             List<String> nameLinks = new ArrayList<>();
             for(WebElement el: links) {
