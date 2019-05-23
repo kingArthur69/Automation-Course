@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" parallel="tests">
+
+    <test name="1">
+
+        <parameter name="strChooseALotSelect" value="STP"/> <!-- STP/EP/LTS/LTG/VP -->
+        <parameter name="strStartTime" value="3:20" />
+        <parameter name="strEntryTimeAMPM" value="AM" />
+        <parameter name="strStartDate" value="5/20/2018" />
+        <parameter name="strExitTime" value="4:30" />
+        <parameter name="strExitTimeAMPM" value="PM" />
+        <parameter name="strExitDate" value="6/20/2018" />
+        <parameter name="strCost" value="$ 832.00" />
+        <parameter name="strTime" value="(31 Days, 13 Hours, 10 Minutes)" />
+
+
+        <classes>
+
+            <class name="testNG.ParkingCalculator" />
+
+        </classes>
+
+    </test>
+
+    <test name="2">
+
+        <parameter name="strChooseALotSelect" value="VP"/> <!-- STP/EP/LTS/LTG/VP -->
+        <parameter name="strStartTime" value="1:11" />
+        <parameter name="strEntryTimeAMPM" value="AM" />
+        <parameter name="strStartDate" value="1/1/1" />
+        <parameter name="strExitTime" value="12:59" />
+        <parameter name="strExitTimeAMPM" value="AM" />
+        <parameter name="strExitDate" value="1/1/1" />
+        <parameter name="strCost" value="$ 0.00" />
+        <parameter name="strTime" value="(-1 Days, 23 Hours, 48 Minutes)" />
+
+        <classes>
+
+            <class name="testNG.ParkingCalculator" />
+
+        </classes>
+
+    </test>
+
+    <test name="3">
+
+        <parameter name="strChooseALotSelect" value="EP"/> <!-- STP/EP/LTS/LTG/VP -->
+        <parameter name="strStartTime" value="10:15" />
+        <parameter name="strEntryTimeAMPM" value="AM" />
+        <parameter name="strStartDate" value="1/20/1919" />
+        <parameter name="strExitTime" value="2:10" />
+        <parameter name="strExitTimeAMPM" value="AM" />
+        <parameter name="strExitDate" value="10/20/2019" />
+        <parameter name="strCost" value="$ 283,878.00" />
+        <parameter name="strTime" value="(36797 Days, 15 Hours, 55 Minutes)" />
+
+        <classes>
+
+            <class name="testNG.ParkingCalculator" />
+
+        </classes>
+
+    </test>
+
+    <test name="4">
+
+        <parameter name="strChooseALotSelect" value="STP"/> <!-- STP/EP/LTS/LTG/VP -->
+        <parameter name="strStartTime" value="9:08" />
+        <parameter name="strEntryTimeAMPM" value="AM" />
+        <parameter name="strStartDate" value="12/10/1019" />
+        <parameter name="strExitTime" value="6:00" />
+        <parameter name="strExitTimeAMPM" value="PM" />
+        <parameter name="strExitDate" value="8/16/1984" />
+        <parameter name="strCost" value="$ 9,160,806.00" />
+        <parameter name="strTime" value="(352338 Days, 8 Hours, 52 Minutes)" />
+
+        <classes>
+
+            <class name="testNG.ParkingCalculator" />
+
+        </classes>
+
+    </test>
+
+    <test name="5">
+
+        <parameter name="strChooseALotSelect" value="LTS"/> <!-- STP/EP/LTS/LTG/VP -->
+        <parameter name="strStartTime" value="16:2e" />
+        <parameter name="strEntryTimeAMPM" value="PM" />
+        <parameter name="strStartDate" value="5/25/2p07" />
+        <parameter name="strExitTime" value="2k:59" />
+        <parameter name="strExitTimeAMPM" value="PM" />
+        <parameter name="strExitDate" value="37/18/2009" />
+        <parameter name="strCost" value="$ 30,220.00" />
+        <parameter name="strTime" value="(3524 Days, 10 Hours, 57 Minutes)" />
+
+        <classes>
+
+            <class name="testNG.ParkingCalculator" />
+
+        </classes>
+
+    </test>
+
+    <test name="6">
+
+        <parameter name="strChooseALotSelect" value="LTG"/> <!-- STP/EP/LTS/LTG/VP -->
+        <parameter name="strStartTime" value="1:11" />
+        <parameter name="strEntryTimeAMPM" value="AM" />
+        <parameter name="strStartDate" value="1/1/1" />
+        <parameter name="strExitTime" value="12:59" />
+        <parameter name="strExitTimeAMPM" value="P" />
+        <parameter name="strExitDate" value="12/31/9999" />
+        <parameter name="strCost" value="$ 30,050,472.00" />
+        <parameter name="strTime" value="(2921572 Days, 23 Hours, 48 Minutes)" />
+
+        <classes>
+
+            <class name="testNG.ParkingCalculator" />
+
+        </classes>
+
+    </test>
+</suite>
